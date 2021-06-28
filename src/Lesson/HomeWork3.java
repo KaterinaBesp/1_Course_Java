@@ -29,9 +29,9 @@ public class HomeWork3 {
         System.out.println("Задание1");
         System.out.println("befor" + Arrays.toString(intArr));
         for (int i = 0; i < intArr.length; i++) {
-            if (intArr[i] == 0)
+            if (intArr[i] == 0) {
                 intArr[i] = 1;
-            else intArr[i] = 0;
+            } else intArr[i] = 0;
         }
         System.out.println("after" + Arrays.toString(intArr));
     }
