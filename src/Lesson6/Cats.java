@@ -2,6 +2,7 @@ package Lesson6;
 
 public class Cats extends Animals {
     private static int count;
+    private  boolean wellFed;
 
     public Cats(String name, int maxRunDistance, int maxSwimDistance) {
         super(name, "Cat", maxRunDistance, maxSwimDistance);
